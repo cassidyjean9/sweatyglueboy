@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+
+body {
+  font-family: 'Pangolin', cursive;
+}
+
+p {
+  font-family: 'Pangolin', cursive;
+}
+
+
+
+
+@media screen and (max-device-width : 599px) and (min-device-width : 0px) {
+   .info {
+     top: 50vh;
+     font-size: 50px;
+   }
+    .desktop {
+    display: none !important;
+    }
+
+    .desktop-mobile {
+    display: inline-block;
+    max-width: 100%;
+    width: 99%;
+    height: auto;
+    position: absolute;
+    }
+
+    .about-work-window {
+        display: none;
+    }
+
+    .illustration-work-window {
+    display: none !important;
+    }
+
+
+    .mobile-illustration-work-window {
+        display: inline-block !important;
+        position: absolute;
+        width: auto;
+        z-index:300;
+    }
+
+   /* ANIMATION BOUNCE IN */
+   /* ANIMATION BOUNCE IN */
+   /* ANIMATION BOUNCE IN */
+
+   /* @-webkit-keyframes fade_in_and_bounce_from_left {
+    0%,
+    60%,
+    75%,
+    90%,
+    100% {
+      -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(-3000px, 0, 0);
+      transform: translate3d(-3000px, 0, 0);
+    }
+    60% {
+      opacity: 1;
+      -webkit-transform: translate3d(25px, 0, 0);
+      transform: translate3d(25px, 0, 0);
+    }
+    75% {
+      -webkit-transform: translate3d(-10px, 0, 0);
+      transform: translate3d(-10px, 0, 0);
+    }
+    90% {
+      -webkit-transform: translate3d(5px, 0, 0);
+      transform: translate3d(5px, 0, 0);
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-moz-keyframes fade_in_and_bounce_from_left {
+    0%,
+    60%,
+    75%,
+    90%,
+    100% {
+      transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+    0% {
+      opacity: 0;
+      transform: translate3d(-3000px, 0, 0);
+    }
+    60% {
+      opacity: 1;
+      transform: translate3d(25px, 0, 0);
+    }
+    75% {
+      transform: translate3d(-10px, 0, 0);
+    }
+    90% {
+      transform: translate3d(5px, 0, 0);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+  
+  
+  .fade_in_and_bounce_from_left_leftmost {
+    -webkit-animation: fade_in_and_bounce_from_left 2.25s 1;
+    animation: fade_in_and_bounce_from_left 2.25s 1;
+  }
+  
+  .fade_in_and_bounce_from_left_rightmost {
+    -webkit-animation: fade_in_and_bounce_from_left 2s 1;
+    animation: fade_in_and_bounce_from_left 2s 1;
+  } */
+
+    /*  MOBILE index page icons */
+    .icons {
+        max-width: 100%;
+  width: 35%;
+  height: auto;
+  box-sizing: border-box;
+    }
+
+    #about-icon {
+        position: relative;
+        z-index:100;
+        top: 100px;
+        left: 0px;
+
+    }  
+
+    #illustration-icon {
+        position: relative;
+
+        z-index:100;
+        top: 130px;
+        left: 40px;
+
+    }
+
+    #video-icon {
+        position: relative;
+        
+        z-index:100;
+        top: 320px;
+        left: 200px !important;
+
+    }
+
+    #contact-icon {
+        position: absolute;
+        
+        z-index:100;
+        top: 400px;
+        left: 30px !important;
+
+    }
+
+      .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        background-color: #202020;
+      }
+  
+  .carousel-item {
+    width: 100vw;
+  }
+  
+        
+      .carousel-indicators .active {
+          background-color: black;
+        }
+  
+        .carousel-control-next {
+          margin-right: -5%;
+      }
+  
+      .carousel-control-prev {
+          margin-left: -5%;
+      }
+      
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        height: 100px;
+        width: 100px;
+        color: black;
+        outline: black;
+        background-size: 100%, 100%;
+        background-image: none;
+      }
+      
+      .carousel-control-next-icon:after
+      {
+        content: '>';
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size: 70px;
+        color: black;
+      }
+      
+      .carousel-control-prev-icon:after {
+        content: '<';
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size: 70px;
+        color: black;
+      }
+
+
+      .home-button {
+        position: fixed;
+        size: 200px;
+        right: 1vw;
+        bottom: 1vh;
+        z-index: 1000;
+       
+      }
+
+      iframe {
+        height: 50vh;
+      }
+}

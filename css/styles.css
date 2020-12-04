@@ -1,0 +1,454 @@
+
+
+
+
+/* for mobile display */
+
+/* for mobile display */
+
+/* for mobile display */
+
+@media all and (max-device-width : 420px) and (min-device-width : 0px) {
+    img.desktop.img-fluid {
+    display: none !important;
+    }
+
+    img.desktop-mobile.img-fluid {
+    display: inline-block;
+    max-width: 100%;
+    width: 99%;
+    height: auto;
+    position: absolute;
+    }
+
+    .illustration-work-window {
+        display: none !important;
+    }
+
+    .mobile-illustration-work-window {
+        display: inline-block;
+        position: absolute;
+   
+        /* margin-left: 50px;  */
+        width: auto;
+        z-index:300;
+    }
+
+    #mobile-slide {
+      position: absolute;
+      right: -600px;
+      width: auto;
+      /* background: blue; */
+      -webkit-animation: slide 0.1s forwards;
+      /* -webkit-animation-delay: 2s; */
+      animation: slide 2s forwards;
+      animation-delay: 1s;
+  }
+
+  @-webkit-keyframes slide {
+  100% { right: 0; }
+  }
+
+  @keyframes slide {
+  100% { right: 0; }
+  }
+
+    /*  MOBILE index page icons */
+    .icons {
+        height: 100px;
+        width: auto;
+        box-sizing: border-box;
+    
+    }
+
+    #about-icon {
+        position: relative;
+        z-index:100;
+        top: 200px;
+        left: 0px;
+
+    }  
+
+    #illustration-icon {
+        position: relative;
+        height: 60px !important;
+        z-index:100;
+        top: 130px;
+        left: 40px;
+
+    }
+
+    #video-icon {
+        position: relative;
+        height: 100px !important;
+        z-index:100;
+        top: 320px;
+        left: 20px !important;
+
+    }
+
+    #contact-icon {
+        position: absolute;
+        height: 100px !important;
+        z-index:100;
+        top: 330px;
+        left: 70px !important;
+
+    }
+
+    }
+
+
+
+  /* for media queries: desktop for range between 1050 and 414*/
+
+/* DESKTOP DESKTOP DESKTOP */ 
+
+
+    /* DESKTOP DESKTOP DESKTOP */ 
+
+    /* DESKTOP DESKTOP DESKTOP */ 
+@media all and (max-width: 1500) and (min-width: 421px) {
+  .desktop {
+      display: inline-block !important;
+      position: absolute;
+      width: 99%;
+      height:auto;
+      top: 0px;
+      left: 0px;
+  }
+  .desktop-mobile {
+    display: none;
+    }
+
+        /* work window for illustration page */
+  .illustration-work-window {
+    display: inline-block;;
+    position:relative;
+    max-width: auto;
+    width: 99%;
+    height:auto;
+    top: 0px;
+    left: 0px;
+  }
+
+  .about-work-window {
+    display: inline-block;;
+    position:relative;
+    max-width: auto;
+    width: 99%;
+    height:auto;
+    top: 0px;
+    left: 0px;
+    z-index: 500;
+
+  }
+
+  .mobile-illustration-work-window {
+      display: none;
+  }
+
+}
+
+@media all and (max-device-width : 420px) and (min-device-width : 0px) {
+  .desktop {
+  display: none;
+  }
+
+  .desktop-mobile {
+  display: inline-block;
+  max-width: 100%;
+  width: 99%;
+  height: auto;
+  position: absolute;
+  }
+
+  .illustration-work-window {
+
+      display: none;
+  }
+
+  .mobile-illustration-work-window {
+      display: inline-block;
+      position: absolute;
+ 
+      /* margin-left: 50px;  */
+      width: auto;
+      z-index:300;
+  }
+}
+
+
+
+
+/* MEDIA MOBILE ADD IN */
+/* animation for slides */
+
+  #slide {
+      position: absolute;
+      right: -5000px;
+      width: auto;
+      /* background: blue; */
+      -webkit-animation: slide 0.1s forwards;
+      /* -webkit-animation-delay: 2s; */
+      animation: slide 2s forwards;
+      animation-delay: 1s;
+  }
+
+  @-webkit-keyframes slide {
+  100% { right: 0; }
+  }
+
+  @keyframes slide {
+  100% { right: 0; }
+  }
+
+
+  
+  
+
+   /* DESKTOP */
+
+  .icons {
+  max-width: 100%;
+  width: 15%;
+  height: auto;
+  box-sizing: border-box;
+  
+  }
+
+  #about-icon {
+  max-width: 100%;
+  width: 15%;
+  height: auto;
+  position: absolute;
+  z-index:100;
+  top: 100px;
+  left: 320px;
+
+  }  
+
+  #illustration-icon {
+  position: absolute;
+  max-width: 100%;
+  width: 20%;
+  height: auto;
+  z-index:100;
+  top: 115px;
+  left: 600px;
+
+  }
+
+  #video-icon {
+  position: absolute;
+  max-width: 80%;
+  width: 15%;
+  height: auto;
+  z-index:100;
+  top: 280px;
+  left: 50px !important;
+
+  }
+
+  #contact-icon {
+  position: absolute;
+  max-width: 100%;
+  width: 20%;
+  height: auto;
+  z-index:100;
+  top: 300px;
+  left: 600px !important;
+
+  }
+
+}
+
+
+
+   
+
+
+
+
+
+/* animation for slides */
+
+
+.work {
+    display: none;
+    position:absolute;
+    margin-left: 35%;
+    margin-right: 45%;
+    margin-top: 12%;
+    z-index: 300;
+
+}
+
+
+
+/* SLIDESHOW SLIDESHOW SLIDESHOW */
+
+.work {
+  position: absolute;
+}
+
+.work-img-slide {
+  position: relative;
+  max-height: 650px;
+  height: 99%;
+  width: 100%;
+
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  margin-left: 100%;
+  
+}
+
+.prev {
+  margin-left: -100%;
+}
+
+/* On hover, make hands bounce */
+@-webkit-keyframes swing {
+  15% {
+      -webkit-transform: translateY(5px);
+      transform: translateY(5px);
+  }
+  30% {
+      -webkit-transform: translateY(-5px);
+      transform: translateY(-5px);
+  }
+  50% {
+      -webkit-transform: translateY(3px);
+      transform: translateY(3px);
+  }
+  65% {
+      -webkit-transform: translateY(-3px);
+      transform: translateY(-3px);
+  }
+  80% {
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px);
+  }
+  100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+  }
+}
+@keyframes swing {
+  15% {
+      -webkit-transform: translateY(5px);
+      transform: translateY(5px);
+  }
+  30% {
+      -webkit-transform: translateY(-5px);
+      transform: translateY(-5px);
+  }
+  50% {
+      -webkit-transform: translateY(3px);
+      transform: translateY(3px);
+  }
+  65% {
+      -webkit-transform: translateY(-3px);
+      transform: translateY(-3px);
+  }
+  80% {
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px);
+  }
+  100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+  }
+}
+.prev:hover, .next:hover 
+{
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
