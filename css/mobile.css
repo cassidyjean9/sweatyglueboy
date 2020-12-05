@@ -45,6 +45,49 @@ p {
         z-index:300;
     }
 
+    .mobile-swipe {
+      margin-right: 40%;
+      margin-left: 40%;
+      padding-top: 10vh;
+      font-size: 50px;
+      display: block;
+      font-family: 'Pangolin', cursive;
+    }
+
+    .shake {
+      animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+      transform: translate3d(0, 0, 0);
+      backface-visibility: hidden;
+      perspective: 1000px;
+    }
+
+    .shake:hover {
+      animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+      transform: translate3d(0, 0, 0);
+      backface-visibility: hidden;
+      perspective: 1000px;
+    }
+    
+    /* shake for mobile swipe */
+
+    @keyframes shake {
+      10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+      }
+      
+      20%, 80% {
+        transform: translate3d(2px, 0, 0);
+      }
+    
+      30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+      }
+    
+      40%, 60% {
+        transform: translate3d(4px, 0, 0);
+      }
+    }
+
    /* ANIMATION BOUNCE IN */
    /* ANIMATION BOUNCE IN */
    /* ANIMATION BOUNCE IN */
@@ -181,11 +224,11 @@ p {
         }
   
         .carousel-control-next {
-          margin-right: -5%;
+          display: none;
       }
   
       .carousel-control-prev {
-          margin-left: -5%;
+         display: none;
       }
       
       .carousel-control-prev-icon,
@@ -225,5 +268,11 @@ p {
 
       iframe {
         height: 50vh;
+      }
+
+      p {
+        position: relative;
+        bottom: 0vw;
+        padding-top: 50vh;
       }
 }

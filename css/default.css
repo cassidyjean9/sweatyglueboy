@@ -16,6 +16,10 @@ p {
   z-index: 1000;
 }
 
+/* .mobile-swipe {
+  display: none;
+} */
+
   /* text for about and contact pages */
   article {
     position: relative;
@@ -110,6 +114,18 @@ p {
     width: 25vw;
   }
 
+  .video {
+    width: 45vw;
+  }
+
+  .video-next{
+    margin-right: -30%;
+  }
+
+  .video-prev {
+    margin-left: -30%;
+
+  }
 /* for between over 1200 px - COMPUTER */
 
 /* for between over 1200 px - COMPUTER */
@@ -120,6 +136,12 @@ p {
 
 /* for between over 1200 px - COMPUTER */
 @media screen and (min-device-width: 1200px) {
+
+  .mobile-swipe {
+    display: none !important;
+  }
+
+  
 
     .desktop {
         display: block !important;
@@ -305,7 +327,7 @@ p {
   
     .work {
     
-        display: none;
+        /* display: none; */
         position:absolute;
         margin-left: 35%;
         margin-right: 45%;
@@ -313,6 +335,18 @@ p {
         z-index: 300;
     
     }
+
+    .work-videos {
+    
+      /* display: none; */
+      position:absolute;
+      margin-left: 25%;
+      margin-right: 50%;
+      margin-top: 12%;
+      z-index: 300;
+  
+  }
+  
     
     
     
@@ -392,6 +426,10 @@ p {
 /* for between 600 and 1000 - only icons change */
 
 @media screen and (min-device-width: 600px) and (max-device-width: 1199px){
+
+  .mobile-swipe {
+    display: none !important;
+  }
 
   .desktop {
       display: block !important;
@@ -563,7 +601,7 @@ p {
 
   .work {
   
-      display: none;
+      /* display: none; */
       position:absolute;
       margin-left: 35%;
       margin-right: 45%;
@@ -571,7 +609,17 @@ p {
       z-index: 300;
   
   }
-  
+  .work-videos {
+    
+    /* display: none; */
+    position:absolute;
+    margin-left: 25%;
+    margin-right: 50%;
+    margin-top: 12%;
+    z-index: 300;
+
+}
+
   
   
   /* SLIDESHOW SLIDESHOW SLIDESHOW */
